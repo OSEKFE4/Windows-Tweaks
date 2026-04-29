@@ -5,59 +5,55 @@
 
 ---
 
+## 🌐 Live Website
+👉 https://osekfe4.github.io/Windows-Tweaks/
+
+---
+
 # 🧠 What is this project?
 
-Windows Tweaks is a complete optimization and repair toolkit designed to:
-- Improve Windows performance
-- Fix common system issues
-- Boost gaming FPS
-- Optimize CPU, RAM, and Disk usage
-- Enhance overall system stability
+Windows Tweaks is a complete optimization and repair toolkit designed to improve Windows performance, fix system issues, and boost gaming FPS safely.
 
 ---
 
-# 🔥 Most Searched Windows Problems (Solved Here)
+# ⚡ Features
 
-✔ 100% Disk Usage Fix  
-✔ High CPU Usage Fix  
-✔ High RAM Usage Fix  
-✔ Windows Slow Performance  
-✔ Windows Lag & Freezing  
-✔ FPS Drops in Games  
-✔ Internet Slow on Windows  
-✔ Startup / Boot Slow Issues  
-✔ Windows Update Errors  
-✔ Blue Screen (BSOD) Fix  
-✔ System Crashes & Instability  
-✔ Overheating & Throttling Issues  
+## 🚀 Performance
+- Boost Windows speed instantly  
+- Optimize CPU & RAM usage  
+- Improve system responsiveness  
+- Reduce background processes  
+- Clean temporary files  
+- Improve boot time  
 
----
+## 🎮 Gaming
+- FPS Boost for games  
+- Reduce lag & stuttering  
+- Improve stability  
+- Better performance optimization  
 
-# ⚡ Performance Features
-
-✔ Boost Windows speed instantly  
-✔ Reduce background processes  
-✔ Optimize CPU & RAM usage  
-✔ Improve system responsiveness  
-✔ Clean temporary files  
-✔ Disable unnecessary services  
-✔ Improve boot time  
-✔ Debloat Windows system  
-✔ Increase FPS in games 🎮  
-✔ Network optimization  
+## 🛠 System Fixes
+- 100% Disk Usage Fix  
+- High CPU Usage Fix  
+- High RAM Usage Fix  
+- Windows Lag Fix  
+- Windows Update Errors  
+- BSOD Fix  
+- System Crash Fix  
+- Internet Slow Fix  
 
 ---
 
-# 🎮 Gaming Optimization
+# 📦 How to use
 
-- FPS Boost for all games  
-- Reduce input delay  
-- Improve GPU/CPU performance usage  
-- Stable frame rate improvements  
+1. Download or open the project files  
+2. Run the script as Administrator  
+3. Apply tweaks  
+4. Restart your PC  
 
 ---
 
-# 🌍 Multi-Language Support
+# 🌍 Supported Languages
 
 🇸🇦 Arabic  
 🇺🇸 English  
@@ -71,32 +67,32 @@ Windows Tweaks is a complete optimization and repair toolkit designed to:
 
 ---
 
-# 📈 SEO Keywords (High Search Volume)
+# 📈 SEO Keywords
 
-Windows Tweaks, Windows optimization, Speed up Windows 10, Speed up Windows 11, Fix lag Windows, FPS boost, Gaming performance boost, 100% disk usage fix, high CPU usage fix, high RAM usage fix, Windows slow fix, BSOD fix, Windows repair tool, PC optimization tool
+Windows Tweaks, Windows optimization, Speed up Windows 10, Speed up Windows 11, Fix lag Windows, FPS boost, Gaming performance boost, 100% disk usage fix, high CPU usage fix, high RAM usage fix, Windows slow fix, BSOD fix, Windows repair tool
 
 ---
 
-# 🌍 Why this project ranks in Google
+# 🌍 Why this project ranks
 
-✔ Targets high-demand search problems  
-✔ Covers gaming + system optimization  
-✔ Solves real user issues  
-✔ Multi-language SEO structure  
-✔ Strong keyword coverage  
+✔ High search volume keywords  
+✔ Real Windows problems  
+✔ Gaming + performance focus  
+✔ Multi-language coverage  
+✔ Strong SEO structure  
 
 ---
 
 # ⚠️ Disclaimer
 
-This project applies system-level optimizations.  
-It is recommended to create a restore point before usage.
+Use at your own risk.  
+Always create a system restore point before applying tweaks.
 
 ---
 
 # 🚀 Goal
 
-To become a global Windows optimization and repair hub providing fast, stable, and optimized system performance for all users.
+To provide a fast, stable, and optimized Windows experience for all users worldwide.
 
 ---
 
