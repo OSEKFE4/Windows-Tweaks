@@ -3,220 +3,102 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Windows Tweaks Pro</title>
+
+<title>WinTweak++ | Ultimate Windows Optimizer</title>
+
+<link rel="canonical" href="https://yourdomain.com/">
+<meta name="robots" content="index, follow">
+
+<meta name="description" content="Boost FPS, reduce lag, optimize Windows performance with 1000+ tweaks.">
+<meta name="keywords" content="fps boost, windows optimizer, reduce lag, gaming tweaks, low ping">
+
+<meta property="og:title" content="WinTweak++ - Boost FPS & Optimize Windows">
+<meta property="og:description" content="Unlock full PC performance instantly.">
+<meta property="og:type" content="website">
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
 <style>
-html {scroll-behavior:smooth;}
-
-body{
-margin:0;
-font-family:'Poppins',sans-serif;
-background: radial-gradient(circle at top, #0f172a, #020617);
-color:white;
-overflow-x:hidden;
-}
-
-/* NAV */
-nav{
-position:fixed;
-top:0;
-width:100%;
-display:flex;
-justify-content:center;
-gap:40px;
-padding:20px;
-background:rgba(0,0,0,0.4);
-backdrop-filter: blur(10px);
-z-index:1000;
-}
-
-nav a{
-color:#38bdf8;
-text-decoration:none;
-transition:.3s;
-}
-
-nav a:hover{
-color:white;
-transform:scale(1.1);
-}
-
-/* SECTIONS */
-section{
-min-height:100vh;
-display:flex;
-flex-direction:column;
-justify-content:center;
-align-items:center;
-text-align:center;
-padding:100px 20px;
-}
-
-h1{
-font-size:3.5rem;
-background:linear-gradient(90deg,#38bdf8,#818cf8);
--webkit-background-clip:text;
--webkit-text-fill-color:transparent;
-}
-
-/* CARDS */
-.cards{
-display:flex;
-gap:30px;
-flex-wrap:wrap;
-justify-content:center;
-margin-top:40px;
-}
-
-.card{
-width:280px;
-padding:30px;
-border-radius:20px;
-background:rgba(255,255,255,0.05);
-box-shadow:0 20px 40px rgba(0,0,0,0.6);
-transition:.4s;
-transform-style:preserve-3d;
-}
-
-.card:hover{
-transform:rotateY(10deg) rotateX(10deg) scale(1.05);
-}
-
-/* BUTTON */
-button{
-margin-top:20px;
-padding:12px 20px;
-border:none;
-border-radius:10px;
-background:linear-gradient(90deg,#38bdf8,#6366f1);
-color:white;
-cursor:pointer;
-transition:.3s;
-}
-
-button:hover{
-transform:scale(1.1);
-}
-
-/* TOAST */
-.toast{
-position:fixed;
-bottom:30px;
-left:50%;
-transform:translateX(-50%) translateY(100px);
-background:#111;
-border:1px solid #38bdf8;
-padding:20px;
-border-radius:15px;
-opacity:0;
-transition:.4s;
-max-width:350px;
-text-align:left;
-}
-
-.toast.show{
-transform:translateX(-50%) translateY(0);
-opacity:1;
-}
-
-/* FOOTER */
-footer{
-padding:40px;
-text-align:center;
-opacity:0.6;
-}
+html{scroll-behavior:smooth;}
+body{margin:0;font-family:'Poppins';background:radial-gradient(circle,#0f172a,#020617);color:white}
+nav{position:fixed;width:100%;display:flex;justify-content:center;gap:25px;padding:20px;background:rgba(0,0,0,.4)}
+nav a{color:#38bdf8;text-decoration:none}
+section{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:100px 20px}
+h1{font-size:3rem;background:linear-gradient(90deg,#38bdf8,#818cf8);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.cards{display:flex;gap:25px;flex-wrap:wrap}
+.card{width:260px;padding:25px;border-radius:15px;background:rgba(255,255,255,.05);transition:.3s}
+.card:hover{transform:scale(1.05)}
+button{padding:12px 20px;border:none;border-radius:10px;background:linear-gradient(90deg,#38bdf8,#6366f1);color:white;cursor:pointer}
+footer{text-align:center;padding:30px;opacity:.6}
 </style>
+
+<script type="application/ld+json">
+{
+ "@context":"https://schema.org",
+ "@type":"SoftwareApplication",
+ "name":"WinTweak++",
+ "operatingSystem":"Windows",
+ "applicationCategory":"Utility",
+ "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}
+}
+</script>
+
 </head>
 
 <body>
 
 <nav>
 <a href="#home">Home</a>
+<a href="#features">Features</a>
 <a href="#tools">Tools</a>
-<a href="#usage">Usage</a>
+<a href="#links">Explore</a>
 </nav>
 
 <section id="home">
-<h1>Windows Tweaks Pro</h1>
-<p>Ultimate 1000+ Tweaks for Performance, Gaming & System Optimization</p>
+<h1>WinTweak++</h1>
+<p>Boost FPS • Reduce Lag • Max Performance</p>
+<button onclick="downloadFile()">Download Now</button>
+</section>
+
+<section id="features">
+<h1>Features</h1>
+<div class="cards">
+<div class="card">🚀 Faster Performance</div>
+<div class="card">🎮 FPS Boost</div>
+<div class="card">🌐 Lower Ping</div>
+<div class="card">🧹 Clean System</div>
+</div>
 </section>
 
 <section id="tools">
-<h1>Power Tools</h1>
-
+<h1>Tools</h1>
 <div class="cards">
-
-<div class="card">
-<h2>🚀 Performance</h2>
-<p>Boost system speed & responsiveness.</p>
-<button onclick="downloadFile()">Download</button>
-</div>
-
-<div class="card">
-<h2>🧹 Cleanup</h2>
-<p>Remove junk & optimize storage.</p>
-<button onclick="downloadFile()">Download</button>
-</div>
-
-<div class="card">
-<h2>🎮 Gaming</h2>
-<p>Increase FPS & reduce lag.</p>
-<button onclick="downloadFile()">Download</button>
-</div>
-
-<div class="card">
-<h2>🌐 Network</h2>
-<p>Lower ping & improve stability.</p>
-<button onclick="downloadFile()">Download</button>
-</div>
-
+<div class="card"><button onclick="downloadFile()">Performance</button></div>
+<div class="card"><button onclick="downloadFile()">Gaming</button></div>
+<div class="card"><button onclick="downloadFile()">Cleanup</button></div>
+<div class="card"><button onclick="downloadFile()">Network</button></div>
 </div>
 </section>
 
-<section id="usage">
-<h1>How To Use</h1>
-
-<div style="max-width:700px;line-height:1.8;opacity:0.9">
-
-<p><b>1.</b> Download the tool from any section.</p>
-<p><b>2.</b> Locate the downloaded file.</p>
-<p><b>3.</b> Right-click → Run as Administrator.</p>
-<p><b>4.</b> Follow on-screen instructions.</p>
-
-<p style="color:#38bdf8;font-weight:bold;margin-top:20px">
-✔ Pro Tip: Disable antivirus temporarily if blocked.
+<section id="links">
+<h1>Explore More</h1>
+<p>
+<a href="fps-boost.html">FPS Boost</a> |
+<a href="reduce-lag.html">Reduce Lag</a> |
+<a href="network-optimization.html">Network</a> |
+<a href="system-cleaner.html">Cleaner</a>
 </p>
-
-</div>
 </section>
 
-<footer>
-© 2026 Windows Tweaks Pro
-</footer>
-
-<!-- TOAST -->
-<div id="toast" class="toast">
-<b>Download Started</b><br><br>
-Your tweak package is downloading...<br>
-Run it as Administrator after download.
-</div>
+<footer>© 2026 WinTweak++</footer>
 
 <script>
 function downloadFile(){
-  // غير الرابط إلى ملفك الحقيقي
-  const link = document.createElement("a");
-  link.href = "https://github.com/OSEKFE4/t/raw/refs/heads/main/winutil.exe"; 
-  link.download = "https://github.com/OSEKFE4/t/raw/refs/heads/main/winutil.exe";
-  link.click();
+  const a=document.createElement("a");
+  a.href="https://github.com/OSEKFE4/t/raw/refs/heads/main/winutil.exe";
+  a.click();
 
-  const toast = document.getElementById("toast");
-  toast.classList.add("show");
-
-  setTimeout(()=>{
-    toast.classList.remove("show");
-  },4000);
+  fetch("/track",{method:"POST"}).catch(()=>{});
 }
 </script>
 
