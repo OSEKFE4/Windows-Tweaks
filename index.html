@@ -1,36 +1,32 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Ultimate FPS Optimizer | Boost FPS, Reduce Ping, Optimize Windows Performance</title>
+<title>Ultimate FPS Optimizer | Boost FPS, Reduce Ping, Fix Lag Windows 10/11</title>
 
-<link rel="canonical" href="https://osekfe4.github.io/Windows-Tweaks">
-<meta name="robots" content="index, follow">
-
-<meta name="description" content="Ultimate FPS Optimizer 🚀 Boost FPS, reduce ping, optimize Windows performance for gaming. أقوى أداة لتسريع ويندوز ورفع الفريمات وتقليل البنق.">
+<meta name="description" content="Ultimate FPS Optimizer 🚀 Increase FPS, reduce ping, and fix lag in Windows 10/11. أقوى أداة لتسريع الألعاب وتحسين أداء الكمبيوتر.">
 
 <meta name="keywords" content="
-ultimate fps optimizer, fps boost tool, reduce ping, windows optimizer,
-gaming performance boost, increase fps pc, fix lag windows,
-تسريع ويندوز, رفع الفريمات, تقليل البنق, تحسين الألعاب, زيادة FPS
+ultimate fps optimizer, fps boost, increase fps, reduce ping, fix lag windows,
+gaming performance boost, windows optimizer tool, pc speed up,
+رفع الفريمات, تقليل البنق, تسريع الألعاب, تحسين ويندوز
 ">
 
 <meta property="og:title" content="Ultimate FPS Optimizer - Boost FPS & Reduce Ping">
-<meta property="og:description" content="Boost FPS 🎮 Reduce Ping ⚡ Optimize Windows 🚀">
+<meta property="og:description" content="Increase FPS 🚀 Reduce Ping ⚡ Fix Lag 🎮">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://osekfe4.github.io/Windows-Tweaks">
 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
 
 <style>
-html{scroll-behavior:smooth;}
 body{
 margin:0;
-font-family:'Poppins';
+font-family:Poppins;
 background:radial-gradient(circle,#0f172a,#020617);
 color:white;
+overflow-x:hidden;
 }
 
 /* NAV */
@@ -39,10 +35,10 @@ position:fixed;
 width:100%;
 display:flex;
 justify-content:center;
-gap:25px;
-padding:20px;
+gap:30px;
+padding:18px;
 background:rgba(0,0,0,.5);
-backdrop-filter:blur(10px);
+backdrop-filter:blur(12px);
 z-index:999;
 }
 
@@ -64,29 +60,35 @@ padding:20px;
 }
 
 .hero h1{
-font-size:3.5rem;
+font-size:3.8rem;
 background:linear-gradient(90deg,#38bdf8,#6366f1);
 -webkit-background-clip:text;
 -webkit-text-fill-color:transparent;
 }
 
 .hero p{
-max-width:600px;
+max-width:650px;
 color:#aaa;
+line-height:1.6;
 }
 
 .btn{
-margin-top:20px;
-padding:15px 30px;
+margin-top:25px;
+padding:15px 35px;
 border:none;
 border-radius:12px;
 background:linear-gradient(90deg,#38bdf8,#6366f1);
 color:white;
 cursor:pointer;
 font-weight:bold;
+transition:.3s;
 }
 
-/* SECTIONS */
+.btn:hover{
+transform:scale(1.05);
+}
+
+/* CARDS */
 .section{
 padding:100px 20px;
 text-align:center;
@@ -100,31 +102,24 @@ justify-content:center;
 }
 
 .card{
-width:260px;
+width:270px;
 padding:30px;
-border-radius:20px;
+border-radius:18px;
 background:rgba(255,255,255,.05);
 transition:.3s;
 }
 
 .card:hover{
 transform:translateY(-10px);
+background:rgba(255,255,255,.08);
 }
 
-/* DOWNLOAD */
-.download{
-padding:100px 20px;
-text-align:center;
-background:linear-gradient(135deg,#0f172a,#020617);
-}
-
-.download a{
-background:#00ff88;
-color:black;
-padding:15px 35px;
-border-radius:12px;
-text-decoration:none;
-font-weight:bold;
+/* SEO TEXT (hidden) */
+.seo{
+position:absolute;
+left:-9999px;
+opacity:0;
+height:0;
 }
 
 /* FOOTER */
@@ -133,18 +128,8 @@ text-align:center;
 padding:30px;
 opacity:.6;
 }
-
-/* SEO hidden */
-.seo-hidden{
-position:absolute;
-left:-9999px;
-opacity:0;
-height:0;
-overflow:hidden;
-}
 </style>
 
-<!-- 🔥 Schema قوي -->
 <script type="application/ld+json">
 {
  "@context":"https://schema.org",
@@ -152,17 +137,8 @@ overflow:hidden;
  "name":"Ultimate FPS Optimizer",
  "operatingSystem":"Windows",
  "applicationCategory":"UtilityApplication",
- "description":"Boost FPS, reduce ping, optimize Windows performance",
- "aggregateRating":{
-   "@type":"AggregateRating",
-   "ratingValue":"4.9",
-   "ratingCount":"2000"
- },
- "offers":{
-   "@type":"Offer",
-   "price":"0",
-   "priceCurrency":"USD"
- }
+ "description":"Boost FPS, reduce ping, fix lag Windows optimizer tool",
+ "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}
 }
 </script>
 
@@ -171,83 +147,60 @@ overflow:hidden;
 <body>
 
 <nav>
-<div><b>Ultimate FPS Optimizer</b></div>
-<div>
+<b>Ultimate FPS Optimizer</b>
 <a href="#features">Features</a>
-<a href="#gaming">Gaming</a>
 <a href="#download">Download</a>
-</div>
+<a href="#faq">FAQ</a>
 </nav>
 
-<!-- HERO -->
 <section class="hero">
 <h1>Ultimate FPS Optimizer 🚀</h1>
+
 <p>
-Boost FPS • Reduce Ping • Max Performance <br>
-تسريع ويندوز • رفع الفريمات • تقليل البنق
+Boost FPS • Reduce Ping • Fix Lag<br>
+تسريع الألعاب • تحسين الأداء • رفع الفريمات
 </p>
-<button class="btn" onclick="downloadFile()">Download Now</button>
+
+<button class="btn" onclick="download()">Download Now</button>
 </section>
 
-<!-- FEATURES -->
 <section class="section" id="features">
 <h1>Features</h1>
+
 <div class="cards">
-
-<div class="card">🚀 Faster Performance</div>
-<div class="card">🎮 FPS Boost</div>
-<div class="card">🌐 Reduce Ping</div>
-<div class="card">🧹 Clean System</div>
-
+<div class="card">🚀 FPS Boost</div>
+<div class="card">⚡ Reduce Ping</div>
+<div class="card">🎮 Fix Game Lag</div>
+<div class="card">🧹 Optimize Windows</div>
 </div>
 </section>
 
-<!-- GAMING -->
-<section class="section" id="gaming">
-<h1>Gaming Optimization</h1>
+<section class="section" id="download">
+<h1>Download Tool</h1>
+<p>Get maximum performance instantly</p>
+<button class="btn" onclick="download()">Download</button>
+</section>
+
+<section class="section" id="faq">
+<h1>FAQ</h1>
+
 <div class="cards">
-
-<div class="card">🔥 Max FPS Unlock</div>
-<div class="card">⚡ Reduce Input Lag</div>
-<div class="card">🎯 Stable Performance</div>
-<div class="card">📶 Network Boost</div>
-
+<div class="card">How to increase FPS?</div>
+<div class="card">How to reduce ping?</div>
+<div class="card">How to fix lag?</div>
+<div class="card">هل البرنامج آمن؟</div>
 </div>
 </section>
 
-<!-- DOWNLOAD -->
-<section class="download" id="download">
-<h1>Download Now</h1>
-<p>Get Ultimate FPS Optimizer for maximum performance</p>
-<a href="https://github.com/OSEKFE4/t/raw/refs/heads/main/winutil.exe">Download</a>
-</section>
-
-<!-- FAQ SEO BOOST -->
-<div class="seo-hidden">
-<h2>FAQ</h2>
-
-<h3>How to boost FPS?</h3>
-<p>Optimize Windows settings and remove background processes.</p>
-
-<h3>كيف ارفع الفريمات؟</h3>
-<p>تحسين النظام يزيد FPS بشكل كبير.</p>
-
-<h3>How to reduce ping?</h3>
-<p>Network optimization reduces latency.</p>
-
-<h3>كيف اقلل البنق؟</h3>
-<p>تحسين الشبكة يقلل التأخير.</p>
-
-Ultimate FPS Optimizer boost fps reduce ping windows optimizer gaming performance improve pc speed optimize windows 10 11 fix lag
+<div class="seo">
+ultimate fps optimizer boost fps reduce ping fix lag windows 10 11 gaming performance increase fps pc optimize windows speed up pc تحسين الألعاب رفع الفريمات تقليل البنق
 </div>
 
 <footer>© 2026 Ultimate FPS Optimizer</footer>
 
 <script>
-function downloadFile(){
-const a=document.createElement("a");
-a.href="https://github.com/OSEKFE4/t/raw/refs/heads/main/winutil.exe";
-a.click();
+function download(){
+window.location.href="https://github.com/OSEKFE4/t/raw/refs/heads/main/winutil.exe";
 }
 </script>
 
