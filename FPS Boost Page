@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>FPS Boost Guide | Ultimate FPS Optimizer</title>
+
+<meta name="description" content="Learn how to boost FPS in Windows 10/11, fix lag, and improve gaming performance. دليل احترافي لرفع الفريمات وتسريع الألعاب.">
+
+<meta name="keywords" content="
+fps boost, increase fps, fix lag, gaming performance, boost fps windows 10,
+رفع الفريمات, تسريع الألعاب, تحسين الأداء, تقليل التقطيع
+">
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:#0f172a;
+color:white;
+text-align:center;
+}
+
+section{
+padding:80px 20px;
+}
+
+h1{
+font-size:3rem;
+color:#38bdf8;
+}
+
+.card{
+background:rgba(255,255,255,.05);
+padding:30px;
+margin:20px auto;
+max-width:700px;
+border-radius:15px;
+}
+a{
+color:#00ff88;
+text-decoration:none;
+}
+</style>
+</head>
+
+<body>
+
+<section>
+<h1>FPS Boost Guide 🚀</h1>
+
+<div class="card">
+<p>
+Learn how to increase FPS in Windows 10/11 using system optimization,
+driver tuning, and performance tweaks.
+</p>
+</div>
+
+<div class="card">
+<h2>Steps</h2>
+<p>
+✔ Disable background apps<br>
+✔ Optimize power settings<br>
+✔ Update GPU drivers<br>
+✔ Use Ultimate FPS Optimizer tool
+</p>
+</div>
+
+<div class="card">
+<h2>Related Tools</h2>
+<a href="index.html">⬅ Back to Main</a><br>
+<a href="reduce-ping.html">Reduce Ping →</a>
+</div>
+
+</section>
+
+</body>
+</html>
