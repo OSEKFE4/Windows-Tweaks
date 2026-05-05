@@ -1,10 +1,24 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<url><loc>https://osekfe4.github.io/Windows-Tweaks/</loc></url>
-<url><loc>https://osekfe4.github.io/Windows-Tweaks/fps-boost.html</loc></url>
-<url><loc>https://osekfe4.github.io/Windows-Tweaks/reduce-lag.html</loc></url>
-<url><loc>https://osekfe4.github.io/Windows-Tweaks/network-optimization.html</loc></url>
-<url><loc>https://osekfe4.github.io/Windows-Tweaks/system-cleaner.html</loc></url>
+<url>
+<loc>https://osekfe4.github.io/Windows-Tweaks/</loc>
+</url>
+
+<url>
+<loc>https://osekfe4.github.io/Windows-Tweaks/fps-boost.html</loc>
+</url>
+
+<url>
+<loc>https://osekfe4.github.io/Windows-Tweaks/reduce-ping.html</loc>
+</url>
+
+<url>
+<loc>https://osekfe4.github.io/Windows-Tweaks/windows-optimization.html</loc>
+</url>
+
+<url>
+<loc>https://osekfe4.github.io/Windows-Tweaks/gaming-performance.html</loc>
+</url>
 
 </urlset>
